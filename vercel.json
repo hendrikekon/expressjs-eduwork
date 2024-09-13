@@ -7,9 +7,9 @@
       }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
-    ]
+    { "src": "/aboutme", "dest": "/app.js" },
+    { "src": "/data", "dest": "/app.js" },
+    { "src": "/product", "dest": "/app.js" },
+    { "src": "/(.*)", "dest": "/app.js" }
+  ]
   }
